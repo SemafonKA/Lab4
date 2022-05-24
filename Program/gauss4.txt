@@ -1,0 +1,25 @@
+      real function gauss4SumReal(n, grid)
+         real roots(4), weights(4), grid(*)
+         roots(1) = -0.861136312
+         roots(2) = -0.339981044
+         roots(3) =  0.339981044
+         roots(4) =  0.861136312
+
+         weights(1) = 0.347854845
+         weights(2) = 0.652145155
+         weights(3) = 0.652145155
+         weights(4) = 0.347854845
+
+         sum = 0.0
+         do j=1,4
+            tsum = 0.0
+            do k=2,n
+               step = grid(k) - grid(k-1)
+               x_kj = (grid(k-1)+grid(k))/2.0 + roots(j)*step/2.0
+               tsum = tsum + step*fun(x_kj)
+            end do
+            sum = sum + weights(j)*tsum
+         end do
+
+         gauss4SumReal = sum / 2.0
+      end !real function gauss4SumReal(n, grid)

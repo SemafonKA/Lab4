@@ -1,0 +1,24 @@
+Range of integral: [       1.0000000,        3.0000000]
+REAL METHODS:
+Steps:            1, step size:        2.0000000
+   Gauss:       0.17643266E+01
+
+Steps:            2, step size:        1.0000000
+   Gauss:       0.17643262E+01
+
+***************************************
+SEMI-DOUBLE METHODS:
+Steps:            1, step size:        2.0000000
+  Gauss-4:      0.17643266E+01
+
+Steps:            2, step size:        1.0000000
+  Gauss-4:      0.17643262E+01
+
+***************************************
+DOUBLE METHODS:
+Steps:            1, step size:        2.0000000
+  Gauss-4:    0.176432606941081E+01
+
+Steps:            2, step size:        1.0000000
+  Gauss-4:    0.176432606941081E+01
+

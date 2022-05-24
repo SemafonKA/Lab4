@@ -1,0 +1,31 @@
+integral_1^3 x^6/177 dx = 2186/1239 = 1,764326069410815 ~ 0,176432606941082E+01
+    DOUBLE METHODS:
+    Steps:            1, step size:        2,0000000
+    Gauss-4:    0,176432606941081E+01
+
+    Steps:            2, step size:        1,0000000
+    Gauss-4:    0,176432606941081E+01
+
+integral_1^3 x^7/177 dx = 820/177 = 4,632768361581920 ~ 0,463276836158192E+01
+    DOUBLE METHODS:
+    Steps:            1, step size:        2,0000000
+    Gauss-4:    0,463276836158192E+01
+
+    Steps:            2, step size:        1,0000000
+    Gauss-4:    0,463276836158192E+01
+
+integral_1^3 x^8/177 dx = 19682/1593 = 12,35530445699937 ~ 0,123553044569994E+02
+    DOUBLE METHODS:
+    Steps:            1, step size:        2,0000000
+    Gauss-4:    0,123552388639071E+02
+
+    Steps:            2, step size:        1,0000000
+    Gauss-4:    0,123553042007764E+02
+
+integral_1^3 x^9/177 dx = 29524/885 = 33,36045197740112 ~ 0,333604519774011E+02
+    DOUBLE METHODS:
+    Steps:            1, step size:        2,0000000
+    Gauss-4:    0,333592713017410E+02
+
+    Steps:            2, step size:        1,0000000
+    Gauss-4:    0,333604473653868E+02
