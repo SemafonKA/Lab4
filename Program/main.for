@@ -594,8 +594,9 @@
       real function fun(x)
          ! implicit none
          ! real x
+         !x^10/7 - 4x^9	
 
-         fun = x**6/177.0 ! Менять здесь и в dfun
+         fun = 10.0*x**2/17.0 ! Менять здесь и в dfun
          RETURN
       end !real function fun()
 
@@ -603,6 +604,6 @@
          ! implicit none
          real*8 x
 
-         dfun = x**6/177.0D0   ! Менять здесь и в fun
+         dfun = 2.0D0*sin(27.0D0*x/5.0D0) - cos(5.0D0*x-1.6D0)  ! Менять здесь и в fun
          RETURN
       end !real*8 function dfun()
